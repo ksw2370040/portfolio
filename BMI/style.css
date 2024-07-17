@@ -1,0 +1,77 @@
+html{
+    background-color: ivory;
+    width: 100%;
+    height: auto;
+}
+main {
+	display: inline-block;
+	vertical-align: top;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#242424;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+div {
+    margin: 10px 0;
+    text-align: center;
+}
+h3{
+    margin: 10px 0;
+    text-align: center;
+    font-size: large;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 14px;
+    border-radius: 100vh;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#bmi-output {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#hantei {
+    margin-top: 10px;
+}
+
+#message {
+    margin-top: 10px;
+    font-style: italic;
+    color: red;
+    font-size: larger;
+    text-align: center;
+}
+

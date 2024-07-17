@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>BMI計算機</title>
+        <link rel="stylesheet" href="./style.css"><!--style.cssを紐づけ-->
+
+    </head>
+    <body>
+        <header>
+            <h2>BMI計算機</h2>
+        </header>
+        <div>
+            <label>身長(cm)</label>
+            <input id="height-in"><!--身長記入欄-->
+        </div>
+        <div>
+            <label>体重(kg)</label>
+            <input id="weight-in"><!--体重記入欄-->
+        </div>
+        <div>
+            <button id="button-sub" type="button">計測</button><!--計測ボタン-->
+            <h3>あなたのBMIは</h3>
+        </div>
+        <div>
+            <div id="bmi-output"></div><!--BMIの表示-->
+            <div id="hantei"></div><!--肥満か標準、痩せ型か判定する-->
+            <p id="message"></p><!--肥満化やせ型だったらあったら表示する-->
+        </div>
+        <script src="./main.js"></script><!--main.jsを紐づけ-->
+    </body>
+</html>
