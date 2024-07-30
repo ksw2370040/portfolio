@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio - management</title>
+    <meta name="description" content="岩井大和 ポートフォリオ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header id="header">
+        <h1 class="site-title"><a href="about.html">Portfolio</a></h1>
+        <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="skill.html">skill</a></li>
+            <li>
+            <a href="https://github.com/ksw2370040" target="_blank">
+                <img class="icon" src="./img/github_icon.png" alt="github">
+            </a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+        <main class="wrapper">
+            <p>※画像です</p>
+            <img src="img/score.jpg" alt="得点管理アプリケーション">
+
+            <h3>得点管理アプリケーション</h3>
+            <p>
+                グループワークでアプリケーションを開発する授業をしており、その時に作った得点管理アプリケーションです。<br>
+                サーバーはTomcat8.0を使っていて、データベースとフレームワークは先にも書いた通り<br>
+                h2-1.4.195のバージョンのH2データベースとサーブレットJSPを使っています。<br>
+                製作期間は1か月です。<br>
+                使用ツールはeclipseです。<br>
+                このアプリケーションの機能は、大きく分けて４つあり、学生管理、成績登録、成績参照、科目管理があります。<br>
+                学生管理は学生情報の新規登録と一覧、絞り込み、登録したデータの変更ができます。<br>
+                成績登録は入学年度、クラス、科目名、回数を入力することで絞り込みを行いその科目の点数を登録することができます。<br>
+                成績参照は入学年度、クラス、科目名を入力することで科目別に参照することができるほかに、<br>学生番号を入力することで学生別に参照できます。<br>
+                科目管理は新規登録と科目名の変更、削除ができます。<br>
+                以上が機能になります。<br>
+            </p>
+            <h2>作成箇所</h2>
+            <p>
+                このアプリケーションの作成箇所はStudentListAction.javaとStudentDao.java<br>
+                以外のsrcディレクトリのJavaファイルを作りました。<br>
+                私たちのグループは就職活動などで休む人が多くそういった人の代わりに作っていたのもあり、<br>
+                ほとんどのJavaファイルを作りました。<br>
+            </p>
+            <h3><a href="https://github.com/ksw2370040/score">ソースコード</a></h3>
+        </main>
+        <footer id="footer">
+            <p>&copy; 2024 My Portfolio template:  <a id="a_footer" href="https://code-jump.com/portfolio1-menu/">https://code-jump.com/portfolio1-menu/</a></p>
+        </footer>
+      
+    </body>
+</html>
