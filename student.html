@@ -47,11 +47,14 @@
             <h2>こだわった点</h2>
             <p>
                 このアプリケーションでこだわった点は2つのテーブルを使ったことです。<br>
-                このアプリケーションにはコーステーブルと学生テーブルを使っており、<br>
-                正規化することで学生テーブルからコース名空コースIDにして、<br>
-                コーステーブルを作ることでより使いやすいデータベースになったと思います。<br>
+                このアプリケーションには COURSE テーブルと STUDENT テーブルを使っており、<br>
+                この2つのテーブルを使用することで、学生がどのコースに所属しているかを<br>
+                明確に管理できるようにしています。COURSE テーブルはコースの情報を保持し、<br>
+                STUDENT テーブルは学生の情報を保持しています。これにより、コースと学生の関係を効率的に管理し、<br>
+                例えば、特定のコースに所属するすべての学生を簡単に取得できるように設計しています。<br>
+                また、この構造を採用することで、データの一貫性を保ちつつ、将来的なシステムの拡張が容易になるように配慮しています。<br>
             </p>
-            <h3><a href="https://github.com/ksw2370040/management">ソースコード</a></h3>
+            <h3><a href="https://github.com/ksw2370040/management/archive/refs/heads/master.zip">ソースコードをダウンロード</a></h3>
         </main>
         <footer id="footer">
             <p>&copy; 2024 My Portfolio template:  <a id="a_footer" href="https://code-jump.com/portfolio1-menu/">https://code-jump.com/portfolio1-menu/</a></p>
